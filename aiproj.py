@@ -33,11 +33,7 @@ path = kagglehub.dataset_download("aliafzal9323/chicago-crime-dataset-2024-2026"
 print("Path to dataset files:", path)
 
 #params: ID Case Number, Date, Block, IUCR, Primary Type, Description, Location Description, Arrest, Domestic, Ward, Community Area,
-#FBI Code,  X Coordinate, Y Coordinate,  Year, Updated On
-3
-
-
-33, Latitude ,Longitude, Location
+#FBI Code,  X Coordinate, Y Coordinate,  Year, Updated On, Latitude ,Longitude, Location
 
 df = pd.read_csv(path + "/chicago crimes.csv")
 df = df[(df['Year'] == 2024) | (df['Year'] == 2025) | (df['Year'] == 2026)] #we might want to create 2026 as a seperate CSV for use as a training set
