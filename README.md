@@ -1,5 +1,5 @@
 This repository is used for the storage of files involed in Brett Philips and Jonah Whites AI Project. 
-#file descriptions
+# file descriptions
 
 AIproj.*** files are where the primary model training is happending
 Concurrentproj.ipynb is used to train the select model over every year of the dataset
@@ -9,12 +9,12 @@ stkdgraph.py is used to generate the graphs compare the data in a by year basis
 
 
 
-#additional notes
+# additional notes
 
 This code segment is the primary method by which the dataset is being accessed.
 ##############
 import kagglehub
-# Download latest version
+#Download latest version
 path = kagglehub.dataset_download("aliafzal9323/chicago-crime-dataset-2024-2026")
 #path is /kaggle/input/chicago-crime-dataset-2024-2026/chicago crimes.csv
 print("Path to dataset files:", path)
