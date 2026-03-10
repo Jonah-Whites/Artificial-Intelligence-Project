@@ -4,7 +4,7 @@ This repository is used for the storage of files involed in Brett Philips and Jo
 AIproj.*** files are where the primary model training is happening
 
 Concurrentproj.ipynb is used to train the select model over every year of the dataset,
-due to the size of the data set this will take multiple hours and will likely need to be done in atleast 2 baches
+due to the size of the data set this will take multiple hours and will likely need to be done in atleast 2 batches
 
 stkdgraph.py is used to generate the graphs compare the data in a by year basis
 
